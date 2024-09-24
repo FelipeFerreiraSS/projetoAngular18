@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "tarefa": "Estudar JavaScript",
+      "categoria": "Faculdade",
+      "concluido": false
+    },
+    {
+      "id": "2",
+      "tarefa": "Estudar Angular",
+      "categoria": "Trabalho",
+      "concluido": true
+    },
+    {
+      "id": "8c0d",
+      "tarefa": "Teste",
+      "categoria": "academia",
+      "concluido": false
+    },
+    {
+      "id": "9335",
+      "tarefa": "Teste 3",
+      "categoria": "casa",
+      "concluido": false
+    }
+  ]
+}

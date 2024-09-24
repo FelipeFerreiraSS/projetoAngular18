@@ -1,0 +1,10 @@
+<div class="task"  (dblclick)="onToggle(tarefa)" [ngClass]="{reminder: tarefa.concluido}">
+  @if (tarefa.concluido) {
+    ✅
+  }
+  <h3>
+    {{tarefa.tarefa}} 
+    <span (click)="onDelete(tarefa)">❌</span>
+  </h3>
+  <p>{{tarefa.categoria}}</p>
+</div>
